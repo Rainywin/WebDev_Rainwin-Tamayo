@@ -1,0 +1,67 @@
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-color: orange; 
+
+
+}
+
+.transition {
+    transition: width 10s transform 3s;
+    background-color: red;
+    animation-duration: 10s;
+    animation-name: transition;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes transition {
+    from {transform: translateX(0px) ;}
+    to {transform: translateX(1250px) ;}
+
+
+}
+
+.rotate-element {
+    animation-name: rotate-element;
+    animation-duration: 10s;
+    background-color: blue;
+    animation-iteration-count: infinite;
+    ;
+}
+
+@keyframes rotate-element {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    
+}
+
+.scale-element {
+    animation-name: scale-element;
+    animation-duration: 10s;
+    background-color: yellow;
+    animation-iteration-count: infinite;
+    ;
+}
+
+@keyframes scale-element {
+    from {transform: scale(1);}
+    to {transform: scale(2.5);}
+    
+}
+
+.translate-element {
+    animation-name: translate-element;
+    animation-duration: 10s;
+    background-color: turquoise;
+    animation-iteration-count: infinite;
+}
+
+@keyframes translate-element {
+    0% {transform: translateY(0px) ;}
+    50% {transform: translateY(-300px) ;}
+    100% {transform: translateY(0px) ;}
+
+}

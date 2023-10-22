@@ -1,0 +1,45 @@
+body{
+    background-color: green;
+}
+
+#BC {
+    color:white;
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    text-shadow: 3px white;
+}
+
+
+.BClogo {
+    text-align: center;
+}
+
+.text {
+    color: white;
+    padding-left: 42%;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+#pic {
+    width: 30px;
+    height: 30px;
+}
+
+#PR {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.ChicagoBulls {
+    color: #990000;
+}
+
+.SanAntonioSpurs {
+    color: Black;
+}

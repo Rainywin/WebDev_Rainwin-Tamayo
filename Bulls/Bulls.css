@@ -1,0 +1,47 @@
+body{
+    background-color: #990000;
+}
+
+#CB {
+    color:white;
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+    border-color: Black;
+    text-shadow: 3px white;
+}
+
+
+.CBlogo {
+    text-align: center;
+}
+
+.text {
+    color: white;
+    padding-left: 42%;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+#pic {
+    width: 30px;
+    height: 30px;
+}
+
+#PR {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.BostonCeltics {
+    color: Green;
+    text-shadow: 10px white;;
+}
+
+.SanAntonioSpurs {
+    color: black;
+    text-shadow: 10px white;
+}
