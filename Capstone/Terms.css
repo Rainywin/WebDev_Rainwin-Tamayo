@@ -1,0 +1,64 @@
+body {
+    margin: 50px;
+    font-family: Arial, sans-serif;
+
+}
+
+html {
+    min-height: 100%;
+    background-image: url("image/BG2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+ .Head {
+    color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sub-head {
+    color: white;
+}
+
+.text { 
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding-top: 80px;
+}
+
+.header {
+    text-shadow: 7px 7px #690E69;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;  
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
