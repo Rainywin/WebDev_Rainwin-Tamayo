@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #003333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+#calcContainer {
+    border: 1px solid white;
+    width: 350px;
+    margin-top: 3%;
+    
+}
+
+#calcContent {
+    padding: 10px;
+    display: flex;
+}
+
+#buttonsRow {
+    color: gray;
+    font-size: 200%;
+}
+
+#displayRow {
+    color: white;
+    font-size: 200%; 
+}
+
+.buttonItem {
+    width: 70px;
+    height: 70px;
+    background-color: hsl(0, 0%, 40%)
+    
+}
+
+.buttonItem:hover {
+    background-color: #6c62ff;
+}
+
+
